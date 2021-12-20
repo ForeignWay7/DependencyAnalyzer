@@ -14,9 +14,13 @@
     <Description>An open source library that provides a way to find NuGet packages that are referenced in different versions across multiple projects in a solution. This can come in handy in a CI world to automate this task.</Description>
     <NeutralLanguage>en</NeutralLanguage>
     <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageIcon>DependencyAnalyzer.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <PackageTags>dependency;analyzer;DevOps;reference;nuget;version</PackageTags>
+    <PackageProjectUrl>https://github.com/ForeignWay7/DependencyAnalyzer</PackageProjectUrl>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/ForeignWay7/DependencyAnalyzer</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
