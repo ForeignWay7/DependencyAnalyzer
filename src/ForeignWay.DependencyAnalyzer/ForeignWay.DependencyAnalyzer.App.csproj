@@ -23,8 +23,4 @@
   <ItemGroup>
     <ProjectReference Include="..\ForeignWay.DependencyAnalyzer.Core\ForeignWay.DependencyAnalyzer.Core.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
 </Project>

@@ -15,19 +15,19 @@
     <NeutralLanguage>en</NeutralLanguage>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageIcon>DependencyAnalyzer.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <PackageTags>dependency;analyzer;DevOps;reference;nuget;version</PackageTags>
     <PackageProjectUrl>https://github.com/ForeignWay7/DependencyAnalyzer</PackageProjectUrl>
-    <Copyright>MIT</Copyright>
     <RepositoryUrl>https://github.com/ForeignWay7/DependencyAnalyzer</RepositoryUrl>
+    <PackageIcon>DependencyAnalyzer.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="DependencyAnalyzer.png">
+    <Resource Include="DependencyAnalyzer.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
-    </None>
+    </Resource>
   </ItemGroup>
 
 </Project>
