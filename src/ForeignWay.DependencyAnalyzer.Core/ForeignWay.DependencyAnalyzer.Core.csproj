@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <BaseOutputPath>..\..\bin\</BaseOutputPath>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\key.snk</AssemblyOriginatorKeyFile>
+    <RootNamespace>ForeignWay.DependencyAnalyzer</RootNamespace>
+    <AssemblyName>DependencyAnalyzer</AssemblyName>
+    <Authors>ForeignWay</Authors>
+    <Company>ForeignWay</Company>
+    <Description>An open source library that provides a way to find NuGet packages that are referenced in different versions across multiple projects in a solution. This can come in handy in a CI world to automate this task.</Description>
+    <NeutralLanguage>en</NeutralLanguage>
+    <IncludeSymbols>true</IncludeSymbols>
+    <PackageIcon>DependencyAnalyzer.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dependency;analyzer;DevOps;reference;nuget;version</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="DependencyAnalyzer.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
